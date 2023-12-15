@@ -1,0 +1,7 @@
+POST http://localhost:9001/api/nasabah/register/v1/new
+Content-Type: application/json
+
+{
+  "namaLengkap": "Dimas Maryanto",
+  "kotaId": "002"
+}

@@ -1,0 +1,7 @@
+### find all
+GET http://localhost:9002/api/kota/v1/list
+Content-Type: application/json
+
+### find by id
+GET http://localhost:9002/api/kota/v1/001
+Content-Type: application/json

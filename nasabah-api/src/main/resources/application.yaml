@@ -1,0 +1,6 @@
+server:
+  port: 9001
+  wilayah-api:
+    host: localhost
+    port: 9002
+    context-path: /
