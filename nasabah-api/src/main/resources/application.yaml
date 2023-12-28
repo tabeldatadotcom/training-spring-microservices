@@ -4,3 +4,11 @@ server:
     host: localhost
     port: 9002
     context-path: /
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/spring
+          jwk-set-uri: http://localhost:8080/realms/spring/protocol/openid-connect/certs
